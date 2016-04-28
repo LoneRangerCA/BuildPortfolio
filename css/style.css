@@ -1,20 +1,16 @@
-.flex-container {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-}
-
 .flex-item {
     display: inline-block;
     -webkit-display: flex;
     flex-direction: row;
     -webkit-flex-direction: row;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
     justify-content: flex-start;
     -webkit-justify-content: flex-start;
     -webkit-flex-grow: 1;
     flex-grow: 1;
     align-self: flex-end;
+    max-width: 250px;
 }
 
 .col-1 {
@@ -65,12 +61,19 @@
     width: 100%;
 }
 
-.rg-logo {
+.rg-title {
     font-family: "Philosopher", sans-serif;
     color: royalblue;
-    margin-left: 0px;
-    margin-top: 0px;
     text-align: center;
-    max-width: 40px;
 }
 
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.batn-picture {
+    display: inline-block
+  height: 100%;
+}
