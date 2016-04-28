@@ -10,7 +10,7 @@
     -webkit-flex-grow: 1;
     flex-grow: 1;
     align-self: flex-end;
-    max-width: 250px;
+    max-width: 100%;
 }
 
 .col-1 {
@@ -74,6 +74,18 @@ img {
 }
 
 .batn-picture {
-    display: inline-block
+  display: inline-block
   height: 100%;
+}
+
+.batnlink {
+  margin:auto;
+  text-align:center;
+  display:block;
+}
+
+p {
+    font-family: "Philosopher", sans-serif;
+    color: royalblue;
+    text-align: center;
 }
